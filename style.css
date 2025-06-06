@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", serif;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+body {
+    background-color: #A9A9A9;
+
+}
+
+.container {
+    background-color: #A9A9A9;
+    margin: 0;
+    position: relative;
+}
+
+.box {
+    position: relative;
+    width: 900px;
+    height: 1061px;
+    /* position: absolute; */
+    /* top: 27px; */
+    /* left: ; */
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: 0px auto;
+}
+
+
+.heading {
+    /* position: absolute; */
+    /* top: 30px; */
+    font-family: "Inter", serif;
+    /* font-family: Inter; */
+    font-size: 57px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 77px 43px 0px;
+    margin: 40px 0px;
+
+}
+
+.heading span {
+    color: #1342EA;
+    /* font-family: Inter; */
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 35px;
+    gap: 22px;
+}
+
+input {
+    font-family: "Inter", serif;
+    /* font-family: sans-serif; */
+    font-size: 18px;
+    font-weight: 600;
+    /* line-height: 6px; */
+    width: 335px;
+    height: 50px;
+
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+
+
+
+
+}
+
+.name select {
+    width: 353px;
+    height: 65px;
+    padding: 0px 0px 0px 24px;
+    top: 198px;
+    left: 306px;
+    gap: 0px;
+    /* border-radius: 5px; */
+    border: 1px solid black;
+    color: black;
+    font-size: 21px;
+    font-family: "Inter", serif;
+    /* font-family: sans-serif; */
+}
+
+.addres {
+    margin: 20px 34px;
+}
+
+main textarea {
+    width: 780px;
+    /* height: 160px; */
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 75px 35px;
+    gap: 22px;
+
+}
+
+.file input {
+    font-size: 19px;
+    width: 295px;
+    height: 27px;
+    padding: 19px 29px;
+}
+
+footer {
+    text-align: end;
+    margin: 105px 76px 0px 0px;
+}
+
+.button button {
+    width: 168px;
+    height: 46px;
+    top: 1018px;
+    left: 971px;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 8px;
+}
+
+@media screen and (max-width: 1480px) {
+    .box {
+        width: 838px;
+        height: 1010px;
+    }
+
+    input {
+        width: 304px;
+        height: 41px;
+    }
+    .name select {
+                width: 322px;
+                height: 45px;
+       
+    }
+       main textarea{   width: 727px;}
+    .file input {
+        width: 265px;
+        height: 27px;
+        padding: 13px 27px;
+    }
+}
+@media screen and (max-width: 845px) {
+    *{
+        background-color: white;
+        margin: 20px 0;
+        font-size: 38px;
+    }
+
+    .box {
+        width: 838px;
+        /* height: 1010px; */
+        background-color: white;
+        border: none;
+        border-radius: none;
+        margin: 0;
+
+    }
+    .heading {
+        font-size: 76px;
+        margin: 25px;
+        padding: 0;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cv{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    input {
+        width: 440px;
+        height: 41px;
+    }
+    .name select {
+        width: 454px;
+                height: 45px;
+       
+    }
+       main textarea{           width: 635px;}
+    .file input {
+        width: 408px;
+        height: 27px;
+        padding: 13px 27px;
+    }
+    footer{
+        text-align: center;
+    }
+    .button button{
+        width: 222px;
+        height: 73px;
+    }
+}
+
+
+
+
+
